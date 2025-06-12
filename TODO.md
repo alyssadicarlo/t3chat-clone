@@ -3,17 +3,18 @@
 ## Core Requirements
 
 ### Multi-LLM Support
-- [ ] Set up OpenAI integration
+- [X] Set up OpenAI
+- [X] Implement streaming
 - [ ] Add support for additional LLM providers
 - [ ] Implement model switching UI
 
 ### Authentication & Sync
-- [ ] Set up Convex authentication
-- [ ] Implement user registration/login
+- [X] Set up Convex authentication
+- [X] Implement user registration/login
 - [ ] Create user profile management
-- [ ] Set up chat history storage
+- [X] Set up chat history storage
 - [X] Implement real-time sync (Comes with Convex)
-- [ ] Add conversation persistence
+- [X] Add conversation persistence
 - [ ] Create user settings storage
 
 ### Browser Experience

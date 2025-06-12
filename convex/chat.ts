@@ -134,7 +134,7 @@ export const generateStreamingResponse = internalAction({
     const chatHistory = messages
       .filter((msg) => !msg.isStreaming)
       .map((msg) => ({
-        role: msg.role as "user" | "assistant",
+        role: msg.role,
         content: msg.content,
       }));
 
